@@ -17,6 +17,11 @@ export default {
 </script>
 
 <style>
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* home route and active route will show in semi-bold as it matches / and /about */
 /* a.nuxt-link-exact-active {
   font-weight: 600;

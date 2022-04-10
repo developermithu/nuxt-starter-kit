@@ -96,7 +96,20 @@
 
 <script>
 export default {
+    data() {
+      return {
+        title: 'Blog page'
+      }
+    },
 
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          { hid: 'description', name: 'description', content: 'Blog page description' }
+        ]
+      }
+    }
 }
 </script>
 

@@ -1,11 +1,11 @@
 export default {
   loading: {
     color: '#00c58e',
-    height: '5px'
+    height: '3px'
   },
 
   head: {
-    title: 'nuxt-starter-kit',
+    title: 'Nuxt Starter Kit',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,6 +17,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' 
+      }
     ]
   },
 
